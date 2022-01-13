@@ -1797,6 +1797,10 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@*:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+
 commander@2.9.x, commander@~2.9.0:
   version "2.9.0"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
@@ -2206,7 +2210,7 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.4.5, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
+debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.8"
   resolved "http://registry.npm.taobao.org/debug/download/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -2456,6 +2460,14 @@ dotenv@4.0.0:
 draft-js@^0.10.0, draft-js@~0.10.0:
   version "0.10.4"
   resolved "http://registry.npm.taobao.org/draft-js/download/draft-js-0.10.4.tgz#147741642097c8120d8edc232e9503e8b7fb8d35"
+  dependencies:
+    fbjs "^0.8.15"
+    immutable "~3.7.4"
+    object-assign "^4.1.0"
+
+draft-js@^0.10.5:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.5.tgz#bfa9beb018fe0533dbb08d6675c371a6b08fa742"
   dependencies:
     fbjs "^0.8.15"
     immutable "~3.7.4"
@@ -3122,10 +3134,8 @@ flatten@^1.0.2:
   resolved "http://registry.npm.taobao.org/flatten/download/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
 follow-redirects@^1.2.3:
-  version "1.2.4"
-  resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.2.4.tgz#355e8f4d16876b43f577b0d5ce2668b9723214ea"
-  dependencies:
-    debug "^2.4.5"
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -4730,6 +4740,12 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   resolved "http://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mockjs@^1.0.1-beta3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mockjs/-/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
+  dependencies:
+    commander "*"
 
 moment@2.x, moment@^2.19.3:
   version "2.19.4"
